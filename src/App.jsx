@@ -46,7 +46,7 @@ function App() {
         Cities to visit in Europe
       </h1>
 
-      <div className="grid mt-32 lg:grid-cols-2 sm:grid-cols-1 sm:gap-4 gap-14">
+      <div className="grid mt-32 lg:grid-cols-2 sm:grid-cols-1 sm:gap-14 gap-16">
         {citiesData.map((city) => (
           <CitiesCard city={city} key={city.id} />
         ))}
