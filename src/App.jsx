@@ -41,17 +41,17 @@ const citiesData = [
 
 function App() {
   return (
-    <div className="bg-white h-screen py-8 px-8 font-raleway max-w-[1440px] mx-auto">
-      <h1 className="text-4xl font-bold uppercase leading-10">
+    <main className="bg-white h-screen px-2 md:px-8 py-8 font-raleway max-w-[1440px] mx-auto">
+      <h1 className="text-2xl mt-8 text-left max-sm:text-center sm:text-4xl font-bold uppercase leading-10">
         Cities to visit in Europe
       </h1>
 
-      <div className="grid mt-8 lg:grid-cols-2 sm:grid-cols-1 sm:gap-8 gap-16">
+      <div className="grid mt-8 lg:grid-cols-2 max-sm:max-w-lg max-sm:mx-auto sm:grid-cols-1 sm:gap-8 gap-8">
         {citiesData.map((city) => (
           <CitiesCard city={city} key={city.id} />
         ))}
       </div>
-    </div>
+    </main>
   );
 }
 
