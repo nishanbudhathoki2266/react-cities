@@ -1,6 +1,6 @@
 function CitiesCard({ city }) {
   return (
-    <div className="flex max-sm:flex-col max-sm:p-3 max-sm:h-full max-lg:h-64 max-sm:gap-2 shadow-lg shadow-gray-400 gap-4 max-w-[1440px] rounded-xl overflow-hidden">
+    <div className="flex max-sm:flex-col max-sm:p-3 max-sm:h-full max-lg:h-64 max-sm:gap-2 shadow-lg shadow-gray-300 gap-4 max-w-[1440px] rounded-xl overflow-hidden">
       <div className="flex-1">
         <img
           src={city.image}
