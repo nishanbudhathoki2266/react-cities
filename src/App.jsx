@@ -41,7 +41,7 @@ const citiesData = [
 
 function App() {
   return (
-    <main className="bg-white h-screen px-2 md:px-8 py-8 font-raleway max-w-[1440px] mx-auto">
+    <main className="bg-white min-h-screen mb-4 px-2 md:px-8 py-4 font-raleway max-w-[1440px] mx-auto">
       <h1 className="text-2xl mt-8 text-left max-sm:text-center sm:text-4xl font-bold uppercase leading-10">
         Cities to visit in Europe
       </h1>
